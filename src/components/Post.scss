@@ -1,0 +1,115 @@
+.search {
+  margin: 20px 0;
+  text-align: center;
+  &-title {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: teal;
+  }
+  &-input {
+    padding: 10px 15px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid teal;
+    border-radius: 5px;
+    color: teal;
+    font-weight: 600;
+    &::placeholder {
+      color: teal;
+      opacity: 0.6;
+    }
+  }
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  &-fetch {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid teal;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      background-color: rgb(5, 61, 61);
+    }
+  }
+  &-create {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    color: gray;
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      background-color: gray;
+      color: white;
+    }
+  }
+}
+.card {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background: rgb(238, 237, 237);
+  padding: 5px;
+  max-width: 300px;
+  margin: 20px auto;
+  &-title {
+    padding: 2px;
+  }
+  &-body {
+    padding: 2px;
+  }
+  &-textarea{
+    padding: 0px;
+    font-size: 15px;
+    margin-top: 5px;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+  }
+  &-btn {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    &__edit {
+      padding: 10px 15px;
+      outline: none;
+      border: 1px solid teal;
+      border-radius: 5px;
+      font-size: 18px;
+      color: white;
+      background-color: teal;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: rgb(5, 61, 61);
+      }
+    }
+    &__delete {
+      padding: 10px 15px;
+      outline: none;
+      border: 1px solid gray;
+      border-radius: 5px;
+      font-size: 18px;
+      color: gray;
+      background-color: lightgray;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: gray;
+        color: white;
+      }
+    }
+  }
+}

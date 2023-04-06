@@ -1,0 +1,76 @@
+.form {
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    &__input {
+      display: block;
+      padding: 10px 15px;
+      outline: none;
+      border: 1px solid gray;
+      border-radius: 2px;
+      font-size: 18px;
+      font-weight: 600;
+      color: rgb(66, 66, 66);
+    }
+    &__textarea {
+      padding: 10px 15px;
+      outline: none;
+      border: 1px solid gray;
+      border-radius: 2px;
+      font-size: 18px;
+    }
+  }
+  &-btn {
+    text-align: right;
+
+    margin: 20px 0px 10px 0px;
+    &__post {
+      padding: 10px 25px;
+      outline: none;
+      border: 1px solid teal;
+      border-radius: 5px;
+      font-size: 18px;
+      color: white;
+      background-color: teal;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: rgb(5, 61, 61);
+      }
+    }
+    &__home {
+      padding: 10px 25px;
+      outline: none;
+      border: 1px solid teal;
+      border-radius: 5px;
+      font-size: 18px;
+      color: white;
+      background-color: teal;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      margin-right: 10px;
+      &:hover {
+        background-color: rgb(5, 61, 61);
+      }
+    }
+  }
+}
+.create {
+  height: 50px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-title {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+}
